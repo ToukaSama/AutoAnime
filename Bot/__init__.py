@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', 'bd08752ff079fbe5f4f8497868b9a40e') #API HASH
 BOT_TOKEN = environ.get('BOT_TOKEN', '7076010181:AAFUoxgQNKyrujsQMrnzGXUTzSUNmYLwlvU') #BOT TOKEN
 DATABASE_URL = environ.get('DATABASE_URL', 'mongodb+srv://meow:meow@meow.a6bo1.mongodb.net/?retryWrites=true&w=majority&appName=meow') #MONGO DB
 OWNER_ID = int(environ.get('OWNER_ID', 6440021089)) #OWNER ID
-MAIN_CHANNEL = int(environ.get('MAIN_CHANNEL', Hindi_Kochikame))#YOUR MAIN CHANNEL ID
+MAIN_CHANNEL = int(environ.get('MAIN_CHANNEL', -1002467460891))#YOUR MAIN CHANNEL ID
 ARCHIVE_CHANNEL = int(environ.get('ARCHIVE_CHANNEL', -1002134572304))#YOUR ARCHIVE CHANNEL
 MESSAGE_ID = int(environ.get('MESSAGE_ID', None)) #SUB CHANNEL STATUS ID
 
