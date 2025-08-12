@@ -20,6 +20,6 @@ DATABASE_URL = environ.get('DATABASE_URL', 'mongodb+srv://meow:meow@meow.a6bo1.m
 OWNER_ID = int(environ.get('OWNER_ID', 6440021089)) #OWNER ID
 MAIN_CHANNEL = int(environ.get('MAIN_CHANNEL', -1002467460891))#YOUR MAIN CHANNEL ID
 ARCHIVE_CHANNEL = int(environ.get('ARCHIVE_CHANNEL', -1002134572304))#YOUR ARCHIVE CHANNEL
-MESSAGE_ID = int(environ.get('MESSAGE_ID', None)) #SUB CHANNEL STATUS ID
+MESSAGE_ID = int(environ.get('MESSAGE_ID', 2614)) #SUB CHANNEL STATUS ID
 
 soheru = Client('SoheruBots', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN, plugins=dict(root="Bot/plugins"))
